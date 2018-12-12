@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: - dev
+---
+spring:
+     profiles: dev #开发环境
+     application:
+       name: blog-config-lin-dev
+---
+spring:
+  profiles: test #测试环境
+  application:
+    name: blog-config-lin-test
+# 必须保存为UTF-8
